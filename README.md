@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# csbSTATS
+# csbSTATS <img src="inst/icons/Logo.png" align="right" width="160">
 
 <!-- badges: start -->
 <!-- badges: end -->
