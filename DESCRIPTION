@@ -1,5 +1,5 @@
 Package: csbSTATS
-Title: Interactive Statistical Analysis and Visualization in Shiny
+Title: Interactive Biostatistical Analysis and Visualization in Shiny
 Version: 1.0.0
 Authors@R:
     person(
@@ -9,7 +9,7 @@ Authors@R:
       email = "Caio.Bonilha@glasgow.ac.uk"
     )
 Description: An open-source R package providing an interactive Shiny-based
-    interface for exploratory data analysis, visualization, and statistical
+    interface for exploratory data analysis, visualization, and biostatistical
     testing, including group comparisons and multiple-testing correction.
 License: MIT + file LICENSE
 Encoding: UTF-8

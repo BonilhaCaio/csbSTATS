@@ -8,7 +8,7 @@
 
 **csbSTATS** is an open-source project that provides an user-friendly,
 interactive interface for exploratory data analysis, visualization,
-and statistical testing.
+and biostatistical testing.
 
 ## Installation
 
@@ -35,10 +35,10 @@ csbSTATS::runCsbSTATS()
 ## User Guide
 
 **csbSTATS** is launched as an interactive Shiny application for
-exploratory data analysis, visualization, and statistical testing.
+exploratory data analysis, visualization, and biostatistical testing.
 
 The workflow is organized into sequential tabs that guide the user from
-data loading to statistical inference.
+data loading to biostatistical inference.
 
 -   The application opens in the *File* tab, where the user uploads a
     `.csv` file containing tabular data. Once the file is loaded, the
@@ -63,9 +63,9 @@ data loading to statistical inference.
 <img src="images/csbSTATS2.png" width="85%">
 </center>
 
--   Statistical analysis is performed in the *Stats* tab. Depending on
+-   Biostatistical analysis is performed in the *Stats* tab. Depending on
     data normality and the number of groups, the software automatically
-    applies the appropriate statistical tests (t-test, Wilcoxon test,
+    applies the appropriate biostatistical tests (t-test, Wilcoxon test,
     one-way ANOVA, Kruskal–Wallis), followed by multiple-comparison
     testing when applicable. Significance levels are displayed both
     graphically on the plot and as a detailed textual summary.

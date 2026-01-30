@@ -429,7 +429,7 @@ server <- function(input, output, session) {
       modalDialog(
         title = "csbSTATS",
         "This is an open-source project that provides an user-friendly UI for
-        automatd statistical analysis in R.",
+        automated biostatistical analysis in R.",
         br(),
         br(),
         strong("Project website:"),
