@@ -1,0 +1,26 @@
+Package: csbSTATS
+Title: Interactive Statistical Analysis and Visualization in Shiny
+Version: 1.0.0
+Authors@R:
+    person(
+      given = "Caio",
+      family = "Santos Bonilha",
+      role = c("aut", "cre"),
+      email = "Caio.Bonilha@glasgow.ac.uk"
+    )
+Description: An open-source R package providing an interactive Shiny-based
+    interface for exploratory data analysis, visualization, and statistical
+    testing, including group comparisons and multiple-testing correction.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    shiny,
+    shinyjs,
+    ggplot2,
+    DT,
+    jsonlite,
+    colourpicker,
+    fontawesome,
+    base64enc
