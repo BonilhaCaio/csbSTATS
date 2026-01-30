@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-**csbSTATS** is is an open-source project that provides an user-friendly,
-interactive user interface for exploratory data analysis, visualization,
+**csbSTATS** is an open-source project that provides an user-friendly,
+interactive interface for exploratory data analysis, visualization,
 and statistical testing.
 
 ## Installation
@@ -40,18 +40,24 @@ exploratory data analysis, visualization, and statistical testing.
 The workflow is organized into sequential tabs that guide the user from
 data loading to statistical inference.
 
--   The application opens in the *Data selection* tab, where the user
-    uploads a `.csv` file and defines experimental groups by selecting
-    cells directly from the data table. Each group is assigned a custom
-    name and stored internally for downstream analysis.
+-   The application opens in the *File* tab, where the user uploads a
+    `.csv` file containing tabular data. Once the file is loaded, the
+    data become available for interactive selection and downstream
+    analysis.
+
+-   In the *Data selection* tab, experimental groups are defined by
+    selecting cells directly from the data table. Each group is assigned
+    a custom name and stored internally, while selected cells are locked
+    to prevent reassignment. Defined groups are displayed in a summary
+    panel for verification before proceeding.
 
 <img src="images/csbSTATS1.png" width="100%">
 
--   Once groups are defined, the *Plot* tab allows visualization of the
+-   After group definition, the *Plot* tab enables visualization of the
     data as bar plots or box plots. Users can customize error bars (SD or
     SEM), adjust plot dimensions, rotate axis labels, display individual
-    data points, reorder groups, and assign custom colors to each group
-    using an interactive colour picker.
+    data points, reorder groups, define axis labels, and assign custom
+    colors to each group using an interactive colour picker.
 
 <center>
 <img src="images/csbSTATS2.png" width="85%">
@@ -62,7 +68,7 @@ data loading to statistical inference.
     applies the appropriate statistical tests (t-test, Wilcoxon test,
     one-way ANOVA, Kruskal–Wallis), followed by multiple-comparison
     testing when applicable. Significance levels are displayed both
-    graphically and as a detailed textual summary.
+    graphically on the plot and as a detailed textual summary.
 
 <center>
 <img src="images/csbSTATS3.png" width="85%">
