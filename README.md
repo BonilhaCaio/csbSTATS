@@ -60,7 +60,7 @@ data loading to biostatistical inference.
     colors to each group using an interactive colour picker.
 
 <center>
-<img src="images/csbSTATS2.png" width="85%">
+<img src="images/csbSTATS2.png" width="100%">
 </center>
 
 -   Biostatistical analysis is performed in the *Stats* tab. Depending on
@@ -71,7 +71,7 @@ data loading to biostatistical inference.
     graphically on the plot and as a detailed textual summary.
 
 <center>
-<img src="images/csbSTATS3.png" width="85%">
+<img src="images/csbSTATS3.png" width="100%">
 </center>
 
 ## Credits and citation
