@@ -51,7 +51,7 @@ data loading to biostatistical inference.
     to prevent reassignment. Defined groups are displayed in a summary
     panel for verification before proceeding.
 
-<img src="images/csbSTATS1.png" width="100%">
+<img src="images/csbSTATS1.png" width="99%">
 
 -   After group definition, the *Plot* tab enables visualization of the
     data as bar plots or box plots. Users can customize error bars (SD or
@@ -60,7 +60,7 @@ data loading to biostatistical inference.
     colors to each group using an interactive colour picker.
 
 <center>
-<img src="images/csbSTATS2.png" width="100%">
+<img src="images/csbSTATS2.png" width="99%">
 </center>
 
 -   Biostatistical analysis is performed in the *Stats* tab. Depending on
@@ -71,7 +71,7 @@ data loading to biostatistical inference.
     graphically on the plot and as a detailed textual summary.
 
 <center>
-<img src="images/csbSTATS3.png" width="100%">
+<img src="images/csbSTATS3.png" width="99%">
 </center>
 
 ## Credits and citation
